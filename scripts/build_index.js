@@ -1,21 +1,21 @@
-const fs=require("fs")
+import fs from "fs"
 
-const db=JSON.parse(
+const db = JSON.parse(
   fs.readFileSync("database/payloads.json","utf8")
 )
 
-const index=[]
+const index = []
 
-for(const [group,payloads] of Object.entries(db.data)){
+for (const [group,payloads] of Object.entries(db.data)) {
 
-  if(!Array.isArray(payloads)) continue
+  if (!Array.isArray(payloads)) continue
 
-  for(const p of payloads){
+  for (const p of payloads) {
 
     index.push({
-      name:p.name||p.title||"",
-      category:p.category||"",
-      tags:p.tags||[],
+      name: p.name || p.title || "",
+      category: p.category || "",
+      tags: p.tags || [],
       group
     })
   }
@@ -26,4 +26,4 @@ fs.writeFileSync(
   JSON.stringify(index,null,2)
 )
 
-console.log("index generated",index.length)
+console.log("index generated", index.length)
