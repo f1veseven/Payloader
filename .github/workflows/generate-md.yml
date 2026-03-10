@@ -15,67 +15,55 @@ jobs:
       - name: 检出当前仓库
         uses: actions/checkout@v4
 
-      - name: 安装 Node.js
+      # Node 22 内置 --experimental-strip-types，可直接运行 TS 文件
+      # 无需 tsx / ts-node / esbuild 等任何第三方工具
+      - name: 安装 Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
-      # 本 workflow 所在仓库不含数据文件，需克隆 Payloader 数据源
       - name: 克隆 Payloader 数据源
         run: |
           git clone --depth=1 https://github.com/3516634930/Payloader.git _payloader_src
           echo "✅ 克隆完成，数据文件："
           ls _payloader_src/src/data/
 
-      # 纯 Node.js 提取：零外部依赖，不受 "type":"module" 影响
-      # 读取 TS 文件 → 去掉 interface/export/类型注解 → new Function 执行 → JSON
+      # 写入提取器到 Payloader 仓库根目录（使 import 路径正确解析）
+      # 使用 Node 22 原生 TS 执行，零外部依赖，不受 "type":"module" 影响
       - name: 提取数据为 JSON
         run: |
-          node << 'NODEOF'
-          const fs   = require('fs')
-          const path = require('path')
-          const base = path.join(process.env.GITHUB_WORKSPACE, '_payloader_src')
+          cat > _payloader_src/_extractor.ts << 'TSEOF'
+          import { writeFileSync } from 'fs'
 
-          function loadTsData(filepath) {
-            let code = fs.readFileSync(filepath, 'utf8')
-            code = code.replace(/\b(interface|type)\s+\w+[^=][^;{]*\{[^}]*\}/gs, '')
-            code = code.replace(/\bexport\s+/g, '')
-            code = code.replace(/:\s*[\w<>\[\] |&,]+\s*(?==)/g, '')
-            const varNames = [...code.matchAll(/^const\s+(\w+)\s*=/mg)].map(m => m[1])
-            if (varNames.length === 0) return {}
-            try {
-              const mod = { exports: {} }
-              const fn = new Function('module', 'exports', 'require',
-                code + `\nObject.assign(module.exports, {${varNames.join(',')}})`)
-              fn(mod, mod.exports, require)
-              return mod.exports
-            } catch (e) {
-              process.stderr.write('parse error in ' + filepath + ': ' + e.message + '\n')
-              return {}
-            }
-          }
+          const webMod      = await import('./src/data/webPayloads.ts')
+          const intranetMod = await import('./src/data/intranetPayloads.ts')
+          const toolMod     = await import('./src/data/toolCommands.ts')
 
-          function unwrap(m) {
+          function unwrap(m: any): any[] {
             if (Array.isArray(m)) return m
-            const found = Object.values(m).find(v => Array.isArray(v))
-            return found || []
+            const found = Object.values(m as object).find((v: any) => Array.isArray(v))
+            return (found as any[]) ?? []
           }
 
           const result = {
-            webPayloads:      unwrap(loadTsData(path.join(base, 'src/data/webPayloads.ts'))),
-            intranetPayloads: unwrap(loadTsData(path.join(base, 'src/data/intranetPayloads.ts'))),
-            toolCommands:     unwrap(loadTsData(path.join(base, 'src/data/toolCommands.ts'))),
+            webPayloads:      unwrap(webMod),
+            intranetPayloads: unwrap(intranetMod),
+            toolCommands:     unwrap(toolMod),
           }
 
-          fs.writeFileSync(path.join(process.env.GITHUB_WORKSPACE, '_data.json'), JSON.stringify(result))
-          console.log(`web:${result.webPayloads.length} 内网:${result.intranetPayloads.length} 工具:${result.toolCommands.length}`)
-          NODEOF
+          writeFileSync(process.argv[2], JSON.stringify(result))
+          console.log(`✅ web:${result.webPayloads.length} 内网:${result.intranetPayloads.length} 工具:${result.toolCommands.length}`)
+          TSEOF
+
+          node --experimental-strip-types \
+            _payloader_src/_extractor.ts \
+            "$GITHUB_WORKSPACE/_data.json"
 
       - name: 验证 JSON 非空
         run: |
           SIZE=$(wc -c < _data.json | tr -d ' ')
           echo "JSON 大小: ${SIZE} bytes"
-          [ "$SIZE" -gt 100 ] || { echo "❌ JSON 为空"; exit 1; }
+          [ "$SIZE" -gt 100 ] || { echo "❌ JSON 为空，提取失败"; exit 1; }
 
       - name: 生成 Markdown
         run: |
