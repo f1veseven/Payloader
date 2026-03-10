@@ -1,168 +1,193 @@
 name: 生成 Payloads Markdown
+
 on:
   workflow_dispatch:
   push:
     branches: [main]
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: 检出当前仓库
         uses: actions/checkout@v4
+
       - name: 安装 Node.js 22
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+
       - name: 克隆 Payloader 数据源
         run: |
           git clone --depth=1 https://github.com/3516634930/Payloader.git _payloader_src
-          echo "✅ 克隆完成，数据文件："
+          echo "✅ 克隆完成"
           ls _payloader_src/src/data/
-      - name: 提取数据为 JSON
+
+      # 把 TS 提取器写成独立文件再执行，避免 heredoc 缩进问题
+      - name: 写入 TS 提取器
         run: |
           cat > _payloader_src/_extractor.ts << 'TSEOF'
           import { writeFileSync } from 'fs'
-          const webMod = await import('./src/data/webPayloads.ts')
+          const webMod      = await import('./src/data/webPayloads.ts')
           const intranetMod = await import('./src/data/intranetPayloads.ts')
-          const toolMod = await import('./src/data/toolCommands.ts')
+          const toolMod     = await import('./src/data/toolCommands.ts')
           function collect(m: any): any[] {
-            if (Array.isArray(m)) return m;
-            const arrs: any[] = [];
-            for (const v of Object.values(m)) {
-              if (Array.isArray(v)) arrs.push(...v);
+            if (Array.isArray(m)) return m
+            const arrs: any[] = []
+            for (const v of Object.values(m as object)) {
+              if (Array.isArray(v)) arrs.push(...v)
             }
-            return arrs;
+            return arrs
           }
           const result = {
-            webPayloads: collect(webMod),
+            webPayloads:      collect(webMod),
             intranetPayloads: collect(intranetMod),
-            toolCommands: collect(toolMod),
+            toolCommands:     collect(toolMod),
           }
           writeFileSync(process.argv[2], JSON.stringify(result))
-          console.log(`✅ web:${result.webPayloads.length} 内网:${result.intranetPayloads.length} 工具:${result.toolCommands.length}`)
+          console.log(`web:${result.webPayloads.length} 内网:${result.intranetPayloads.length} 工具:${result.toolCommands.length}`)
           TSEOF
+
+      - name: 提取数据为 JSON
+        run: |
           node --experimental-strip-types \
             _payloader_src/_extractor.ts \
             "$GITHUB_WORKSPACE/_data.json"
-      - name: 验证 JSON 非空
-        run: |
           SIZE=$(wc -c < _data.json | tr -d ' ')
           echo "JSON 大小: ${SIZE} bytes"
-          [ "$SIZE" -gt 100 ] || { echo "❌ JSON 为空，提取失败"; exit 1; }
-      - name: 生成 Markdown
+          [ "$SIZE" -gt 100 ] || { echo "❌ JSON 为空"; exit 1; }
+
+      # 把 Python 脚本写成独立文件再执行，彻底解决 YAML heredoc 缩进问题
+      - name: 写入 Python 脚本
         run: |
-          python3 << 'PYEOF'
-import json
-from pathlib import Path
-data = json.loads(Path("_data.json").read_text(encoding="utf-8"))
-web = data.get("webPayloads", [])
-intranet = data.get("intranetPayloads", [])
-tools = data.get("toolCommands", [])
-print(f"Web: {len(web)} 条 / 内网: {len(intranet)} 条 / 工具: {len(tools)} 条")
-BT = chr(96)
-def to_str(val, prefer="zh"):
-    if val is None: return ""
-    if isinstance(val, str): return val
-    if isinstance(val, dict):
-        return val.get(prefer) or val.get("en") or val.get("zh") or str(next(iter(val.values()), ""))
-    return str(val)
-def render_entry(p: dict) -> list[str]:
-    lines = []
-    name = to_str(p.get("name") or p.get("title") or p.get("id") or "?")
-    lines.append(f"\n### {name}\n")
-    meta = []
-    if p.get("category"): meta.append(f"**分类**: {BT}{to_str(p['category'])}{BT}")
-    if p.get("platform"): meta.append(f"**平台**: {BT}{to_str(p['platform'])}{BT}")
-    if p.get("severity"): meta.append(f"**危险级别**: {BT}{to_str(p['severity'])}{BT}")
-    tags = p.get("tags") or []
-    if tags: meta.append("**标签**: " + " ".join(f"{BT}{to_str(t)}{BT}" for t in tags))
-    if meta: lines.append(" · ".join(meta) + "\n")
-    desc = to_str(p.get("description") or p.get("desc") or "")
-    if desc: lines.append(f"{desc}\n")
-    steps = p.get("steps") or []
-    if steps:
-        lines.append("**执行步骤：**\n")
-        for i, step in enumerate(steps, 1):
-            if isinstance(step, str):
-                lines.append(f"{BT*3}bash\n{step.strip()}\n{BT*3}\n")
-                continue
-            title = to_str(step.get("title") or step.get("name") or f"步骤 {i}")
-            lines.append(f"**{i}. {title}**\n")
-            cmds = step.get("commands") or step.get("command") or []
-            if isinstance(cmds, str): cmds = [cmds]
-            for cmd in cmds:
-                if isinstance(cmd, str) and cmd.strip():
-                    lines.append(f"{BT*3}bash\n{cmd.strip()}\n{BT*3}\n")
-            breakdown = step.get("syntaxBreakdown") or []
-            if breakdown:
-                lines.append("\n<details><summary>语法解析</summary>\n\n")
-                for item in breakdown:
-                    if isinstance(item, dict):
-                        token = to_str(item.get("token") or item.get("part") or "")
-                        meaning = to_str(item.get("meaning") or item.get("desc") or "")
-                        if token: lines.append(f"- {BT}{token}{BT} — {meaning}\n")
-                lines.append("</details>\n")
-    waf = p.get("wafBypass") or p.get("bypass") or []
-    if waf:
-        lines.append("\n**WAF 绕过变体：**\n")
-        for v in waf[:8]:
-            if isinstance(v, str) and v.strip():
-                lines.append(f"{BT*3}\n{v.strip()}\n{BT*3}\n")
-            elif isinstance(v, dict):
-                vp = to_str(v.get("payload") or v.get("code") or "")
-                vn = to_str(v.get("name") or "")
-                if vp: lines.append(f"**{vn}**\n{BT*3}\n{vp.strip()}\n{BT*3}\n")
-    tutorial = p.get("tutorial") or {}
-    if isinstance(tutorial, dict) and tutorial:
-        lines.append("\n<details><summary>📖 教程</summary>\n\n")
-        for key, label in [("overview","概述"),("principle","原理"),("exploitation","利用"),("defense","防御")]:
-            val = to_str(tutorial.get(key) or "")
-            if val: lines.append(f"**{label}**: {val}\n\n")
-        lines.append("</details>\n")
-    lines.append("\n---\n")
-    return lines
-def group_by_category(payloads):
-    groups = {}
-    for p in payloads:
-        cat = to_str(p.get("category") or p.get("type") or "其他")
-        groups.setdefault(cat, []).append(p)
-    return groups
-sections = [
-    ("🌐 Web 应用安全", web),
-    ("🏠 内网渗透", intranet),
-    ("🛠️ 工具命令", tools),
-]
-out = [
-    "# 📦 Payloader 速查手册\n",
-    "> 自动从 [3516634930/Payloader](https://github.com/3516634930/Payloader) 生成\n",
-    "\n---\n\n## 目录\n",
-]
-for title, items in sections:
-    out.append(f"- {title}（{len(items)} 条）\n")
-out.append("\n---\n")
-for title, payloads in sections:
-    out.append(f"\n## {title}\n\n")
-    for cat, items in sorted(group_by_category(payloads).items()):
-        out.append(f"\n### 📁 {cat}（{len(items)} 条）\n")
-        for p in items:
-            out.extend(render_entry(p))
-md = "".join(out)
-Path("payloads.md").write_text(md, encoding="utf-8")
-size_kb = Path("payloads.md").stat().st_size // 1024
-print(f"✅ payloads.md（{size_kb} KB，{md.count(chr(10))} 行）")
-PYEOF
+          cat > _gen_md.py << 'PYEOF'
+          import json
+          from pathlib import Path
+
+          data     = json.loads(Path("_data.json").read_text(encoding="utf-8"))
+          web      = data.get("webPayloads",      [])
+          intranet = data.get("intranetPayloads", [])
+          tools    = data.get("toolCommands",     [])
+          print(f"Web: {len(web)} / 内网: {len(intranet)} / 工具: {len(tools)}")
+
+          BT = chr(96)
+
+          def to_str(val, prefer="zh"):
+              if val is None: return ""
+              if isinstance(val, str): return val
+              if isinstance(val, dict):
+                  return val.get(prefer) or val.get("en") or val.get("zh") or str(next(iter(val.values()), ""))
+              return str(val)
+
+          def render_entry(p):
+              lines = []
+              name = to_str(p.get("name") or p.get("title") or p.get("id") or "?")
+              lines.append(f"\n### {name}\n")
+              meta = []
+              if p.get("category"): meta.append(f"**分类**: {BT}{to_str(p['category'])}{BT}")
+              if p.get("platform"): meta.append(f"**平台**: {BT}{to_str(p['platform'])}{BT}")
+              if p.get("severity"): meta.append(f"**危险级别**: {BT}{to_str(p['severity'])}{BT}")
+              tags = p.get("tags") or []
+              if tags: meta.append("**标签**: " + " ".join(f"{BT}{to_str(t)}{BT}" for t in tags))
+              if meta: lines.append(" · ".join(meta) + "\n")
+              desc = to_str(p.get("description") or p.get("desc") or "")
+              if desc: lines.append(f"{desc}\n")
+              steps = p.get("steps") or []
+              if steps:
+                  lines.append("**执行步骤：**\n")
+                  for i, step in enumerate(steps, 1):
+                      if isinstance(step, str):
+                          lines.append(f"{BT*3}bash\n{step.strip()}\n{BT*3}\n")
+                          continue
+                      title = to_str(step.get("title") or step.get("name") or f"步骤 {i}")
+                      lines.append(f"**{i}. {title}**\n")
+                      cmds = step.get("commands") or step.get("command") or []
+                      if isinstance(cmds, str): cmds = [cmds]
+                      for cmd in cmds:
+                          if isinstance(cmd, str) and cmd.strip():
+                              lines.append(f"{BT*3}bash\n{cmd.strip()}\n{BT*3}\n")
+                      breakdown = step.get("syntaxBreakdown") or []
+                      if breakdown:
+                          lines.append("\n<details><summary>语法解析</summary>\n\n")
+                          for item in breakdown:
+                              if isinstance(item, dict):
+                                  token   = to_str(item.get("token") or item.get("part") or "")
+                                  meaning = to_str(item.get("meaning") or item.get("desc") or "")
+                                  if token: lines.append(f"- {BT}{token}{BT} — {meaning}\n")
+                          lines.append("</details>\n")
+              waf = p.get("wafBypass") or p.get("bypass") or []
+              if waf:
+                  lines.append("\n**WAF 绕过变体：**\n")
+                  for v in waf[:8]:
+                      if isinstance(v, str) and v.strip():
+                          lines.append(f"{BT*3}\n{v.strip()}\n{BT*3}\n")
+                      elif isinstance(v, dict):
+                          vp = to_str(v.get("payload") or v.get("code") or "")
+                          vn = to_str(v.get("name") or "")
+                          if vp: lines.append(f"**{vn}**\n{BT*3}\n{vp.strip()}\n{BT*3}\n")
+              tutorial = p.get("tutorial") or {}
+              if isinstance(tutorial, dict) and tutorial:
+                  lines.append("\n<details><summary>📖 教程</summary>\n\n")
+                  for key, label in [("overview","概述"),("principle","原理"),
+                                      ("exploitation","利用"),("defense","防御")]:
+                      val = to_str(tutorial.get(key) or "")
+                      if val: lines.append(f"**{label}**: {val}\n\n")
+                  lines.append("</details>\n")
+              lines.append("\n---\n")
+              return lines
+
+          def group_by_category(payloads):
+              groups = {}
+              for p in payloads:
+                  cat = to_str(p.get("category") or p.get("type") or "其他")
+                  groups.setdefault(cat, []).append(p)
+              return groups
+
+          sections = [
+              ("🌐 Web 应用安全", web),
+              ("🏠 内网渗透",     intranet),
+              ("🛠️ 工具命令",    tools),
+          ]
+
+          out = [
+              "# 📦 Payloader 速查手册\n",
+              "> 自动从 [3516634930/Payloader](https://github.com/3516634930/Payloader) 生成\n",
+              "\n---\n\n## 目录\n",
+          ]
+          for title, items in sections:
+              out.append(f"- {title}（{len(items)} 条）\n")
+          out.append("\n---\n")
+          for title, payloads in sections:
+              out.append(f"\n## {title}\n\n")
+              for cat, items in sorted(group_by_category(payloads).items()):
+                  out.append(f"\n### 📁 {cat}（{len(items)} 条）\n")
+                  for p in items:
+                      out.extend(render_entry(p))
+
+          md = "".join(out)
+          Path("payloads.md").write_text(md, encoding="utf-8")
+          size_kb = Path("payloads.md").stat().st_size // 1024
+          print(f"✅ payloads.md（{size_kb} KB，{md.count(chr(10))} 行）")
+          PYEOF
+
+      - name: 生成 Markdown
+        run: python3 _gen_md.py
+
       - name: 清理临时文件
-        run: rm -rf _data.json _payloader_src
+        run: rm -rf _data.json _payloader_src _gen_md.py
+
       - name: 提交并推送 payloads.md
         run: |
-          git config user.name "github-actions[bot]"
+          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add payloads.md
           git diff --cached --quiet && echo "文件无变化，跳过提交" && exit 0
           git commit -m "docs: 自动更新 payloads.md [skip ci]"
           git push
+
       - name: 上传 Artifact
         uses: actions/upload-artifact@v4
         with:
