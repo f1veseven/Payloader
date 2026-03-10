@@ -79,18 +79,26 @@ jobs:
 
           BT = chr(96)
 
+          def to_str(val, prefer="zh"):
+              """将任意值安全转为字符串，兼容双语对象 {"zh":..., "en":...}"""
+              if val is None: return ""
+              if isinstance(val, str): return val
+              if isinstance(val, dict):
+                  return val.get(prefer) or val.get("en") or val.get("zh") or str(next(iter(val.values()), ""))
+              return str(val)
+
           def render_entry(p: dict) -> list[str]:
               lines = []
-              name = p.get("name") or p.get("title") or p.get("id") or "?"
+              name = to_str(p.get("name") or p.get("title") or p.get("id") or "?")
               lines.append(f"\n### {name}\n")
               meta = []
-              if p.get("category"): meta.append(f"**分类**: {BT}{p['category']}{BT}")
-              if p.get("platform"): meta.append(f"**平台**: {BT}{p['platform']}{BT}")
-              if p.get("severity"): meta.append(f"**危险级别**: {BT}{p['severity']}{BT}")
+              if p.get("category"): meta.append(f"**分类**: {BT}{to_str(p['category'])}{BT}")
+              if p.get("platform"): meta.append(f"**平台**: {BT}{to_str(p['platform'])}{BT}")
+              if p.get("severity"): meta.append(f"**危险级别**: {BT}{to_str(p['severity'])}{BT}")
               tags = p.get("tags") or []
-              if tags: meta.append("**标签**: " + " ".join(f"{BT}{t}{BT}" for t in tags))
+              if tags: meta.append("**标签**: " + " ".join(f"{BT}{to_str(t)}{BT}" for t in tags))
               if meta: lines.append(" · ".join(meta) + "\n")
-              desc = p.get("description") or p.get("desc") or ""
+              desc = to_str(p.get("description") or p.get("desc") or "")
               if desc: lines.append(f"{desc}\n")
               steps = p.get("steps") or []
               if steps:
@@ -99,7 +107,7 @@ jobs:
                       if isinstance(step, str):
                           lines.append(f"{BT*3}bash\n{step.strip()}\n{BT*3}\n")
                           continue
-                      title = step.get("title") or step.get("name") or f"步骤 {i}"
+                      title = to_str(step.get("title") or step.get("name") or f"步骤 {i}")
                       lines.append(f"**{i}. {title}**\n")
                       cmds = step.get("commands") or step.get("command") or []
                       if isinstance(cmds, str): cmds = [cmds]
@@ -111,8 +119,8 @@ jobs:
                           lines.append("\n<details><summary>语法解析</summary>\n\n")
                           for item in breakdown:
                               if isinstance(item, dict):
-                                  token   = item.get("token") or item.get("part") or ""
-                                  meaning = item.get("meaning") or item.get("desc") or ""
+                                  token   = to_str(item.get("token") or item.get("part") or "")
+                                  meaning = to_str(item.get("meaning") or item.get("desc") or "")
                                   if token: lines.append(f"- {BT}{token}{BT} — {meaning}\n")
                           lines.append("</details>\n")
               waf = p.get("wafBypass") or p.get("bypass") or []
@@ -122,15 +130,15 @@ jobs:
                       if isinstance(v, str) and v.strip():
                           lines.append(f"{BT*3}\n{v.strip()}\n{BT*3}\n")
                       elif isinstance(v, dict):
-                          vp = v.get("payload") or v.get("code") or ""
-                          vn = v.get("name") or ""
+                          vp = to_str(v.get("payload") or v.get("code") or "")
+                          vn = to_str(v.get("name") or "")
                           if vp: lines.append(f"**{vn}**\n{BT*3}\n{vp.strip()}\n{BT*3}\n")
               tutorial = p.get("tutorial") or {}
               if isinstance(tutorial, dict) and tutorial:
                   lines.append("\n<details><summary>📖 教程</summary>\n\n")
                   for key, label in [("overview","概述"),("principle","原理"),
                                       ("exploitation","利用"),("defense","防御")]:
-                      val = tutorial.get(key) or ""
+                      val = to_str(tutorial.get(key) or "")
                       if val: lines.append(f"**{label}**: {val}\n\n")
                   lines.append("</details>\n")
               lines.append("\n---\n")
@@ -139,7 +147,7 @@ jobs:
           def group_by_category(payloads):
               groups = {}
               for p in payloads:
-                  cat = p.get("category") or p.get("type") or "其他"
+                  cat = to_str(p.get("category") or p.get("type") or "其他")
                   groups.setdefault(cat, []).append(p)
               return groups
 
