@@ -1,92 +1,74 @@
+```yaml
 name: 生成 Payloads Markdown
-
 on:
   workflow_dispatch:
   push:
     branches: [main]
-
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
       - name: 检出当前仓库
         uses: actions/checkout@v4
-
-      # Node 22 内置 --experimental-strip-types，可直接运行 TS 文件
-      # 无需 tsx / ts-node / esbuild 等任何第三方工具
       - name: 安装 Node.js 22
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-
       - name: 克隆 Payloader 数据源
         run: |
           git clone --depth=1 https://github.com/3516634930/Payloader.git _payloader_src
           echo "✅ 克隆完成，数据文件："
           ls _payloader_src/src/data/
-
-      # 写入提取器到 Payloader 仓库根目录（使 import 路径正确解析）
-      # 使用 Node 22 原生 TS 执行，零外部依赖，不受 "type":"module" 影响
       - name: 提取数据为 JSON
         run: |
           cat > _payloader_src/_extractor.ts << 'TSEOF'
           import { writeFileSync } from 'fs'
-
-          const webMod      = await import('./src/data/webPayloads.ts')
+          const webMod = await import('./src/data/webPayloads.ts')
           const intranetMod = await import('./src/data/intranetPayloads.ts')
-          const toolMod     = await import('./src/data/toolCommands.ts')
-
-          function unwrap(m: any): any[] {
-            if (Array.isArray(m)) return m
-            const found = Object.values(m as object).find((v: any) => Array.isArray(v))
-            return (found as any[]) ?? []
+          const toolMod = await import('./src/data/toolCommands.ts')
+          function collect(m: any): any[] {
+            if (Array.isArray(m)) return m;
+            const arrs: any[] = [];
+            for (const v of Object.values(m)) {
+              if (Array.isArray(v)) arrs.push(...v);
+            }
+            return arrs;
           }
-
           const result = {
-            webPayloads:      unwrap(webMod),
-            intranetPayloads: unwrap(intranetMod),
-            toolCommands:     unwrap(toolMod),
+            webPayloads: collect(webMod),
+            intranetPayloads: collect(intranetMod),
+            toolCommands: collect(toolMod),
           }
-
           writeFileSync(process.argv[2], JSON.stringify(result))
           console.log(`✅ web:${result.webPayloads.length} 内网:${result.intranetPayloads.length} 工具:${result.toolCommands.length}`)
           TSEOF
-
           node --experimental-strip-types \
             _payloader_src/_extractor.ts \
             "$GITHUB_WORKSPACE/_data.json"
-
       - name: 验证 JSON 非空
         run: |
           SIZE=$(wc -c < _data.json | tr -d ' ')
           echo "JSON 大小: ${SIZE} bytes"
           [ "$SIZE" -gt 100 ] || { echo "❌ JSON 为空，提取失败"; exit 1; }
-
       - name: 生成 Markdown
         run: |
           python3 << 'PYEOF'
           import json
           from pathlib import Path
-
-          data     = json.loads(Path("_data.json").read_text(encoding="utf-8"))
-          web      = data.get("webPayloads",      [])
+          data = json.loads(Path("_data.json").read_text(encoding="utf-8"))
+          web = data.get("webPayloads", [])
           intranet = data.get("intranetPayloads", [])
-          tools    = data.get("toolCommands",     [])
+          tools = data.get("toolCommands", [])
           print(f"Web: {len(web)} 条 / 内网: {len(intranet)} 条 / 工具: {len(tools)} 条")
-
           BT = chr(96)
-
           def to_str(val, prefer="zh"):
-              """将任意值安全转为字符串，兼容双语对象 {"zh":..., "en":...}"""
               if val is None: return ""
               if isinstance(val, str): return val
               if isinstance(val, dict):
                   return val.get(prefer) or val.get("en") or val.get("zh") or str(next(iter(val.values()), ""))
               return str(val)
-
           def render_entry(p: dict) -> list[str]:
               lines = []
               name = to_str(p.get("name") or p.get("title") or p.get("id") or "?")
@@ -119,7 +101,7 @@ jobs:
                           lines.append("\n<details><summary>语法解析</summary>\n\n")
                           for item in breakdown:
                               if isinstance(item, dict):
-                                  token   = to_str(item.get("token") or item.get("part") or "")
+                                  token = to_str(item.get("token") or item.get("part") or "")
                                   meaning = to_str(item.get("meaning") or item.get("desc") or "")
                                   if token: lines.append(f"- {BT}{token}{BT} — {meaning}\n")
                           lines.append("</details>\n")
@@ -136,27 +118,23 @@ jobs:
               tutorial = p.get("tutorial") or {}
               if isinstance(tutorial, dict) and tutorial:
                   lines.append("\n<details><summary>📖 教程</summary>\n\n")
-                  for key, label in [("overview","概述"),("principle","原理"),
-                                      ("exploitation","利用"),("defense","防御")]:
+                  for key, label in [("overview","概述"),("principle","原理"),("exploitation","利用"),("defense","防御")]:
                       val = to_str(tutorial.get(key) or "")
                       if val: lines.append(f"**{label}**: {val}\n\n")
                   lines.append("</details>\n")
               lines.append("\n---\n")
               return lines
-
           def group_by_category(payloads):
               groups = {}
               for p in payloads:
                   cat = to_str(p.get("category") or p.get("type") or "其他")
                   groups.setdefault(cat, []).append(p)
               return groups
-
           sections = [
               ("🌐 Web 应用安全", web),
-              ("🏠 内网渗透",     intranet),
-              ("🛠️ 工具命令",    tools),
+              ("🏠 内网渗透", intranet),
+              ("🛠️ 工具命令", tools),
           ]
-
           out = [
               "# 📦 Payloader 速查手册\n",
               "> 自动从 [3516634930/Payloader](https://github.com/3516634930/Payloader) 生成\n",
@@ -171,28 +149,25 @@ jobs:
                   out.append(f"\n### 📁 {cat}（{len(items)} 条）\n")
                   for p in items:
                       out.extend(render_entry(p))
-
           md = "".join(out)
           Path("payloads.md").write_text(md, encoding="utf-8")
           size_kb = Path("payloads.md").stat().st_size // 1024
           print(f"✅ payloads.md（{size_kb} KB，{md.count(chr(10))} 行）")
           PYEOF
-
       - name: 清理临时文件
         run: rm -rf _data.json _payloader_src
-
       - name: 提交并推送 payloads.md
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add payloads.md
           git diff --cached --quiet && echo "文件无变化，跳过提交" && exit 0
           git commit -m "docs: 自动更新 payloads.md [skip ci]"
           git push
-
       - name: 上传 Artifact
         uses: actions/upload-artifact@v4
         with:
           name: payloads-md
           path: payloads.md
           retention-days: 30
+```
