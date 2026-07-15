@@ -1,6 +1,1314 @@
 [
   {
     "name": {
+      "zh": "PowerShell 全命令动态枚举",
+      "en": "PowerShell Full Command Discovery"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "commandCatalogTools"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 全 Cmdlet 索引",
+      "en": "PowerShell All Cmdlets Index"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "commandCatalogTools"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 全 Function 索引",
+      "en": "PowerShell All Functions Index"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "commandCatalogTools"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 全 Alias 索引",
+      "en": "PowerShell All Aliases Index"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "commandCatalogTools"
+  },
+  {
+    "name": {
+      "zh": "Linux 全命令动态枚举",
+      "en": "Linux Full Command Discovery"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "commandCatalogTools"
+  },
+  {
+    "name": {
+      "zh": "Linux Shell Builtins 索引",
+      "en": "Linux Shell Builtins Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "commandCatalogTools"
+  },
+  {
+    "name": {
+      "zh": "Linux POSIX/GNU 命令索引",
+      "en": "Linux POSIX/GNU Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "commandCatalogTools"
+  },
+  {
+    "name": {
+      "zh": "Linux 系统管理命令索引",
+      "en": "Linux Administration Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "commandCatalogTools"
+  },
+  {
+    "name": {
+      "zh": "Linux 网络与存储命令索引",
+      "en": "Linux Network & Storage Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "commandCatalogTools"
+  },
+  {
+    "name": {
+      "zh": "Linux 包管理/开发/容器命令索引",
+      "en": "Linux Package, Dev & Container Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "commandCatalogTools"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": "",
+    "category": "",
+    "tags": [],
+    "group": "globalVariables"
+  },
+  {
+    "name": {
       "zh": "BloodHound域分析",
       "en": "BloodHound Domain Analysis"
     },
@@ -4224,6 +5532,294 @@
     "group": "navigation"
   },
   {
+    "name": {
+      "zh": "🏴 CTF工具",
+      "en": "🏴 CTF Tools"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "☁️ 云安全工具",
+      "en": "☁️ Cloud Security Tools"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "📱 移动安全工具",
+      "en": "📱 Mobile Security Tools"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "🎯 专项攻击工具",
+      "en": "🎯 Specialized Attack Tools"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "🛡️ 蓝队取证工具",
+      "en": "🛡️ Blue Team & DFIR"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "⚡ 后渗透工具",
+      "en": "⚡ Post-Exploitation"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "🏛️ 域渗透工具",
+      "en": "🏛️ Domain Pentest Tools"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "🔗 隧道代理工具",
+      "en": "🔗 Tunneling & Pivoting"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "🔍 Web扩展工具",
+      "en": "🔍 Web Extended Tools"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "💉 Web攻击技术",
+      "en": "💉 Web Attack Techniques"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "🔴 红队工具",
+      "en": "🔴 Red Team Tools"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "🔧 其他渗透工具",
+      "en": "🔧 Misc Pentest Tools"
+    },
+    "category": "",
+    "tags": [],
+    "group": "navigation"
+  },
+  {
+    "name": {
+      "zh": "Linux 常用命令总览",
+      "en": "Linux Command Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "Linux 文本处理命令",
+      "en": "Linux Text Processing Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "Linux 进程与服务排查",
+      "en": "Linux Process & Service Diagnostics"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "Linux 网络与防火墙排查",
+      "en": "Linux Network & Firewall Diagnostics"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "Linux 包管理与容器命令",
+      "en": "Linux Package & Container Commands"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "Windows CMD 命令总览",
+      "en": "Windows CMD Command Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 管理命令",
+      "en": "PowerShell Administration Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "Windows 日志、网络与防火墙查询",
+      "en": "Windows Event, Network & Firewall Queries"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "Windows Sysinternals 工具",
+      "en": "Windows Sysinternals Tools"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "跨平台效率命令工具",
+      "en": "Modern Cross-platform CLI Toolkit"
+    },
+    "category": {
+      "zh": "效率工具",
+      "en": "Utility Tools"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "网络诊断工具箱",
+      "en": "Network Diagnostics Toolkit"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "蓝队取证工具箱",
+      "en": "Blue Team DFIR Toolkit"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "文件分析与取证工具",
+      "en": "File Analysis & Forensics Tools"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "Linux 安全基线查询",
+      "en": "Linux Security Baseline Queries"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
+    "name": {
+      "zh": "Windows 安全基线查询",
+      "en": "Windows Security Baseline Queries"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "osToolCommandExtensions"
+  },
+  {
     "name": "Nmap",
     "category": {
       "zh": "信息收集",
@@ -4310,7 +5906,7 @@
   {
     "name": {
       "zh": "Linux提权命令",
-      "en": "LinuxPrivilege escalationCommand"
+      "en": "Linux Privilege Escalation Commands"
     },
     "category": {
       "zh": "权限提升",
@@ -4388,7 +5984,7 @@
   {
     "name": {
       "zh": "Python反弹Shell",
-      "en": "Python Reverse ShellShell"
+      "en": "Python Reverse Shell"
     },
     "category": {
       "zh": "反弹Shell",
@@ -4400,7 +5996,7 @@
   {
     "name": {
       "zh": "PowerShell反弹Shell",
-      "en": "PowerShellReverse Shell"
+      "en": "PowerShell Reverse Shell"
     },
     "category": {
       "zh": "反弹Shell",
@@ -4412,7 +6008,7 @@
   {
     "name": {
       "zh": "Netcat反弹Shell",
-      "en": "NetcatReverse Shell"
+      "en": "Netcat Reverse Shell"
     },
     "category": {
       "zh": "反弹Shell",
@@ -4455,37 +6051,10 @@
     "group": "toolCommands"
   },
   {
-    "name": "BloodHound",
-    "category": {
-      "zh": "内网渗透",
-      "en": "Intranet Penetration"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
     "name": "Mimikatz",
     "category": {
       "zh": "凭证窃取",
       "en": "Credential Theft"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Rubeus",
-    "category": {
-      "zh": "凭证窃取",
-      "en": "Credential Theft"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Certipy",
-    "category": {
-      "zh": "域渗透",
-      "en": "Domain Penetration"
     },
     "tags": [],
     "group": "toolCommands"
@@ -4500,52 +6069,7 @@
     "group": "toolCommands"
   },
   {
-    "name": "SharpHound",
-    "category": {
-      "zh": "内网渗透",
-      "en": "Intranet Penetration"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Seatbelt",
-    "category": {
-      "zh": "信息收集",
-      "en": "Information Gathering"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "WinPEAS",
-    "category": {
-      "zh": "权限提升",
-      "en": "Privilege Escalation"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "LinPEAS",
-    "category": {
-      "zh": "权限提升",
-      "en": "Privilege Escalation"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
     "name": "Chisel",
-    "category": {
-      "zh": "隧道代理",
-      "en": "Tunneling & Proxy"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Ligolo-ng",
     "category": {
       "zh": "隧道代理",
       "en": "Tunneling & Proxy"
@@ -4581,15 +6105,6 @@
     "group": "toolCommands"
   },
   {
-    "name": "Cobalt Strike",
-    "category": {
-      "zh": "红队工具",
-      "en": "Red Team Tools"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
     "name": "SearchSploit",
     "category": {
       "zh": "信息收集",
@@ -4603,42 +6118,6 @@
     "category": {
       "zh": "Web渗透",
       "en": "Web Penetration"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Amass",
-    "category": {
-      "zh": "信息收集",
-      "en": "Information Gathering"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Subfinder",
-    "category": {
-      "zh": "信息收集",
-      "en": "Information Gathering"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "HTTPX",
-    "category": {
-      "zh": "信息收集",
-      "en": "Information Gathering"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Masscan",
-    "category": {
-      "zh": "信息收集",
-      "en": "Information Gathering"
     },
     "tags": [],
     "group": "toolCommands"
@@ -4988,7 +6467,7 @@
   {
     "name": {
       "zh": "SecLists字典",
-      "en": "SecListsDictionary"
+      "en": "SecLists Wordlists"
     },
     "category": {
       "zh": "密码攻击",
@@ -5000,7 +6479,7 @@
   {
     "name": {
       "zh": "RockYou字典",
-      "en": "RockYouDictionary"
+      "en": "RockYou Wordlist"
     },
     "category": {
       "zh": "密码攻击",
@@ -5331,6 +6810,2700 @@
     "group": "toolCommands"
   },
   {
+    "name": "Naabu",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Katana",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "gau",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "dnsx",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "tlsx",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Assetfinder",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "SubDomainizer",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Hakrawler",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Semgrep",
+    "category": {
+      "zh": "代码安全",
+      "en": "Code Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Gitleaks",
+    "category": {
+      "zh": "供应链安全",
+      "en": "Supply Chain Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "TruffleHog",
+    "category": {
+      "zh": "供应链安全",
+      "en": "Supply Chain Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Trivy",
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Syft",
+    "category": {
+      "zh": "供应链安全",
+      "en": "Supply Chain Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Grype",
+    "category": {
+      "zh": "供应链安全",
+      "en": "Supply Chain Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Checkov",
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "tfsec",
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "OSV-Scanner",
+    "category": {
+      "zh": "供应链安全",
+      "en": "Supply Chain Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Prowler",
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Pwntools",
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "GDB 增强插件 (pwndbg/GEF/peda)",
+      "en": "GDB Enhanced (pwndbg/GEF/peda)"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Ghidra",
+    "category": {
+      "zh": "逆向工程",
+      "en": "Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Radare2",
+    "category": {
+      "zh": "逆向工程",
+      "en": "Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Binwalk",
+    "category": {
+      "zh": "CTF/固件分析",
+      "en": "CTF / Firmware Analysis"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "angr",
+    "category": {
+      "zh": "CTF/逆向",
+      "en": "CTF / Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Volatility 3",
+    "category": {
+      "zh": "CTF/内存取证",
+      "en": "CTF / Memory Forensics"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "隐写术工具集",
+      "en": "Steganography Toolkit"
+    },
+    "category": {
+      "zh": "CTF/隐写",
+      "en": "CTF / Steganography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "FRP (Fast Reverse Proxy)",
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Neo-reGeorg",
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "pspy",
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Linux Exploit Suggester 2",
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "macOS 系统命令",
+      "en": "macOS System Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "ADB (Android Debug Bridge)",
+    "category": {
+      "zh": "移动安全",
+      "en": "Mobile Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Docker 安全命令",
+      "en": "Docker Security Commands"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Kubernetes 安全命令",
+      "en": "Kubernetes Security Commands"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 密码学工具",
+      "en": "CTF Crypto Tools"
+    },
+    "category": {
+      "zh": "CTF/密码学",
+      "en": "CTF / Cryptography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "RsaCtfTool",
+    "category": {
+      "zh": "CTF/密码学",
+      "en": "CTF / Cryptography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Wireshark / tshark",
+    "category": {
+      "zh": "CTF/流量分析",
+      "en": "CTF / Traffic Analysis"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "John the Ripper 进阶用法",
+      "en": "John the Ripper Advanced Usage"
+    },
+    "category": {
+      "zh": "密码攻击",
+      "en": "Password Attacks"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SSH 渗透测试命令",
+      "en": "SSH Penetration Testing Commands"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SMB 渗透测试命令",
+      "en": "SMB Penetration Testing Commands"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "MSSQL 渗透测试",
+      "en": "MSSQL Penetration Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "MySQL 渗透测试",
+      "en": "MySQL Penetration Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Redis 渗透测试",
+      "en": "Redis Penetration Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerView AD 信息收集",
+      "en": "PowerView AD Reconnaissance"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 横向移动命令",
+      "en": "Windows Lateral Movement Commands"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 后渗透命令",
+      "en": "Linux Post-Exploitation Commands"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 后渗透命令",
+      "en": "Windows Post-Exploitation Commands"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 取证工具集",
+      "en": "CTF Forensics Toolkit"
+    },
+    "category": {
+      "zh": "CTF/取证",
+      "en": "CTF / Forensics"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Nmap 高级用法",
+      "en": "Nmap Advanced Usage"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 侦察工具集",
+      "en": "Web Reconnaissance Toolkit"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "AWS 云安全测试",
+      "en": "AWS Cloud Security Testing"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Pacu",
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "iOS 安全测试命令",
+      "en": "iOS Security Testing Commands"
+    },
+    "category": {
+      "zh": "移动安全",
+      "en": "Mobile Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Gobuster 高级用法",
+      "en": "Gobuster Advanced Usage"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Nuclei 高级用法",
+      "en": "Nuclei Advanced Usage"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Burp Suite 高级用法",
+      "en": "Burp Suite Advanced Usage"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Git 信息泄露测试",
+      "en": "Git Information Disclosure Testing"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SQLMap 高级用法",
+      "en": "SQLMap Advanced Usage"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "LFI/RFI 利用工具",
+      "en": "LFI/RFI Exploitation Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "XSS 利用工具",
+      "en": "XSS Exploitation Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络枢转与代理",
+      "en": "Network Pivoting and Proxy"
+    },
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "WebShell 和 CMS 工具",
+      "en": "WebShells and CMS Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Azure 云安全测试",
+      "en": "Azure Cloud Security Testing"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 缓存攻击工具",
+      "en": "Web Cache Attack Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "XXE 攻击工具",
+      "en": "XXE Attack Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "JWT 攻击工具",
+      "en": "JWT Attack Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Active Directory 攻击速查",
+      "en": "Active Directory Attack Quick Reference"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "OSINT 信息收集工具",
+      "en": "OSINT Information Gathering Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "漏洞开发辅助工具",
+      "en": "Exploit Development Helper Tools"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "OpenVAS / Greenbone",
+      "en": "OpenVAS / Greenbone Vulnerability Scanner"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "密码喷洒工具",
+      "en": "Password Spraying Tools"
+    },
+    "category": {
+      "zh": "密码攻击",
+      "en": "Password Attacks"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Scapy",
+    "category": {
+      "zh": "CTF/流量分析",
+      "en": "CTF / Traffic Analysis"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Impacket 高级工具",
+      "en": "Impacket Advanced Tools"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Netcat 高级用法",
+      "en": "Netcat Advanced Usage"
+    },
+    "category": {
+      "zh": "反弹Shell",
+      "en": "Reverse Shell"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Metasploit 高级用法",
+      "en": "Metasploit Advanced Usage"
+    },
+    "category": {
+      "zh": "漏洞利用",
+      "en": "Exploitation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 注册表命令",
+      "en": "Windows Registry Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 远程管理",
+      "en": "PowerShell Remoting Commands"
+    },
+    "category": {
+      "zh": "Windows渗透",
+      "en": "Windows Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 网络命令速查",
+      "en": "Linux Networking Quick Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF Web 工具集",
+      "en": "CTF Web Tools"
+    },
+    "category": {
+      "zh": "CTF/Web",
+      "en": "CTF / Web"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "文件传输技术",
+      "en": "File Transfer Techniques"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "主动侦察工具",
+      "en": "Active Reconnaissance Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 高级命令",
+      "en": "Windows Advanced Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF Misc 工具集",
+      "en": "CTF Misc Tools"
+    },
+    "category": {
+      "zh": "CTF/Misc",
+      "en": "CTF / Misc"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "反编译工具",
+      "en": "Decompiler Tools"
+    },
+    "category": {
+      "zh": "逆向工程",
+      "en": "Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "内网枢转工具",
+      "en": "Internal Network Pivoting Tools"
+    },
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "漏洞利用框架",
+      "en": "Exploit Frameworks"
+    },
+    "category": {
+      "zh": "漏洞利用",
+      "en": "Exploitation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 取证命令",
+      "en": "Linux Forensics Commands"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 取证命令",
+      "en": "Windows Forensics Commands"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web API 安全测试",
+      "en": "Web API Security Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "GCP 云安全测试",
+      "en": "GCP Cloud Security Testing"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Python 渗透测试脚本",
+      "en": "Python Penetration Testing Scripts"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Wi-Fi 无线安全测试",
+      "en": "Wi-Fi Wireless Security Testing"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络枚举工具",
+      "en": "Network Enumeration Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 内核漏洞利用",
+      "en": "Linux Kernel Exploits"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "WebShell Payload 集合",
+      "en": "WebShell Payload Collection"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 提权技术速查",
+      "en": "Linux Privilege Escalation Techniques"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "哈希破解速查",
+      "en": "Hash Cracking Quick Reference"
+    },
+    "category": {
+      "zh": "密码攻击",
+      "en": "Password Attacks"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PHP 安全攻击",
+      "en": "PHP Security Attacks"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 提权技术速查",
+      "en": "Windows Privilege Escalation Techniques"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SSH 隧道高级用法",
+      "en": "SSH Tunneling Advanced Usage"
+    },
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "BloodHound Cypher 查询",
+      "en": "BloodHound Cypher Queries"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Interactsh",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Java 应用渗透测试",
+      "en": "Java Application Penetration Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "空间测绘工具",
+      "en": "Cyberspace Mapping Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "社会工程学工具",
+      "en": "Social Engineering Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 命令技巧速查",
+      "en": "Linux Command Tricks Quick Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows LOLBins 速查",
+      "en": "Windows LOLBins Quick Reference"
+    },
+    "category": {
+      "zh": "Windows渗透",
+      "en": "Windows Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Exploit 搜索速查",
+      "en": "Exploit Search Quick Reference"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "命令注入高级技术",
+      "en": "Advanced Command Injection Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 认证绕过技术",
+      "en": "Web Authentication Bypass Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Nmap NSE 脚本速查",
+      "en": "Nmap NSE Scripts Quick Reference"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络代理工具对比",
+      "en": "Network Proxy Tools Reference"
+    },
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Active Directory 持久化",
+      "en": "Active Directory Persistence"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 字典资源",
+      "en": "Web Fuzzing Wordlists"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 网络题工具",
+      "en": "CTF Network Challenge Tools"
+    },
+    "category": {
+      "zh": "CTF/流量分析",
+      "en": "CTF / Traffic Analysis"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "AV/EDR 绕过技术",
+      "en": "AV/EDR Evasion Techniques"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Bug Bounty 工具链",
+      "en": "Bug Bounty Toolkit"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "容器逃逸技术",
+      "en": "Container Escape Techniques"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 侦察高级技术",
+      "en": "Advanced Web Reconnaissance Techniques"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "DNS 攻击技术",
+      "en": "DNS Attack Techniques"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "云安全工具集",
+      "en": "Cloud Security Toolkit"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络层攻击",
+      "en": "Network Layer Attacks"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "数据外带技术",
+      "en": "Data Exfiltration Techniques"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "漏洞研究工具",
+      "en": "Vulnerability Research Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 系统命令全览",
+      "en": "Windows System Commands Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 逆向工具集",
+      "en": "CTF Reverse Engineering Tools"
+    },
+    "category": {
+      "zh": "逆向工程",
+      "en": "Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "移动端渗透测试工具",
+      "en": "Mobile Penetration Testing Tools"
+    },
+    "category": {
+      "zh": "移动安全",
+      "en": "Mobile Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "GTFOBins 速查",
+      "en": "GTFOBins Quick Reference"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 密码学速查",
+      "en": "CTF Cryptography Quick Reference"
+    },
+    "category": {
+      "zh": "CTF/密码学",
+      "en": "CTF / Cryptography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "红队行动速查",
+      "en": "Red Team Operations Quick Reference"
+    },
+    "category": {
+      "zh": "红队工具",
+      "en": "Red Team Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "HTTP 安全响应头测试",
+      "en": "HTTP Security Headers Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "提权辅助工具集",
+      "en": "Privilege Escalation Helper Toolkit"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SQL 注入高级技术",
+      "en": "Advanced SQL Injection Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "渗透测试报告工具",
+      "en": "Pentest Reporting Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 缓存和 CDN 安全",
+      "en": "Web Cache and CDN Security"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "文件上传攻击技术",
+      "en": "File Upload Attack Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "数据库渗透工具集",
+      "en": "Database Penetration Toolkit"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Active Directory 工具集",
+      "en": "Active Directory Toolkit"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 高级命令技巧",
+      "en": "Linux Advanced Command Tricks"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "反序列化攻击工具",
+      "en": "Deserialization Attack Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "代理工具速查",
+      "en": "Proxy Tools Quick Reference"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "API 安全测试工具",
+      "en": "API Security Testing Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "内网侦察命令集",
+      "en": "Internal Network Reconnaissance Commands"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SSRF 利用技术",
+      "en": "SSRF Exploitation Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF PWN 技术速查",
+      "en": "CTF PWN Techniques Quick Reference"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "IoT 设备安全测试",
+      "en": "IoT Device Security Testing"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "社交媒体 OSINT",
+      "en": "Social Media OSINT"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "持久化技术速查",
+      "en": "Persistence Techniques Quick Reference"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "被动信息收集",
+      "en": "Passive Information Gathering"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 枚举工具速查",
+      "en": "Web Enumeration Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "云平台杂项工具",
+      "en": "Cloud Miscellaneous Tools"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 提权检测清单",
+      "en": "Linux Privilege Escalation Checklist"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 高级攻击技术",
+      "en": "Advanced Web Attack Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 安全基线检查",
+      "en": "Linux Security Baseline Check"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 安全基线检查",
+      "en": "Windows Security Baseline Check"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "漏洞利用开发",
+      "en": "Exploit Development"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "威胁情报工具",
+      "en": "Threat Intelligence Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows CMD 高级命令",
+      "en": "Windows CMD Advanced Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 取证高级技术",
+      "en": "Linux Advanced Forensics"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "代码审计速查",
+      "en": "Code Audit Quick Reference"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "渗透测试实用命令集",
+      "en": "Useful Pentest Command Collection"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络协议渗透速查",
+      "en": "Network Protocol Pentest Reference"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Git 安全操作",
+      "en": "Git Security Operations"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Docker 管理命令",
+      "en": "Docker Management Commands"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "端点安全检测",
+      "en": "Endpoint Security Detection"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络枢转技术速查",
+      "en": "Network Pivoting Techniques"
+    },
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "恶意宏和脚本分析",
+      "en": "Malicious Macro and Script Analysis"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF Linux 工具速查",
+      "en": "CTF Linux Tools Reference"
+    },
+    "category": {
+      "zh": "CTF/Misc",
+      "en": "CTF / Misc"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CMS 攻击速查",
+      "en": "CMS Attack Quick Reference"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Shodan 高级搜索",
+      "en": "Shodan Advanced Search"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "逆向工程技巧",
+      "en": "Reverse Engineering Tricks"
+    },
+    "category": {
+      "zh": "逆向工程",
+      "en": "Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "后渗透工具速查",
+      "en": "Post-Exploitation Tools Reference"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 堆漏洞利用",
+      "en": "CTF Heap Exploitation"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "供应链安全工具",
+      "en": "Supply Chain Security Tools"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "高级网络扫描",
+      "en": "Advanced Network Scanning"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF Web 高级技巧",
+      "en": "CTF Web Advanced Tricks"
+    },
+    "category": {
+      "zh": "CTF/Web",
+      "en": "CTF / Web"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "AD 域内枚举速查",
+      "en": "AD Domain Enumeration Reference"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 取证高级技术",
+      "en": "CTF Advanced Forensics Techniques"
+    },
+    "category": {
+      "zh": "CTF/取证",
+      "en": "CTF / Forensics"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "枚举自动化脚本",
+      "en": "Enumeration Automation Scripts"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 高级渗透技术",
+      "en": "Advanced Windows Penetration Techniques"
+    },
+    "category": {
+      "zh": "Windows渗透",
+      "en": "Windows Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "AWS 高级攻击",
+      "en": "AWS Advanced Attacks"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "VoIP/SIP 安全测试",
+      "en": "VoIP/SIP Security Testing"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "ICS/SCADA 工控安全",
+      "en": "ICS/SCADA Industrial Control Security"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Exchange/M365 攻击",
+      "en": "Exchange/M365 Attacks"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "蓝牙安全测试",
+      "en": "Bluetooth Security Testing"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "进程注入技术",
+      "en": "Process Injection Techniques"
+    },
+    "category": {
+      "zh": "Windows渗透",
+      "en": "Windows Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "OAuth/OIDC 攻击",
+      "en": "OAuth/OIDC Attacks"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "无文件攻击和反取证",
+      "en": "Fileless Attacks and Anti-Forensics"
+    },
+    "category": {
+      "zh": "Windows渗透",
+      "en": "Windows Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "阿里云/腾讯云安全测试",
+      "en": "Alibaba/Tencent Cloud Security Testing"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "ECC/格密码攻击",
+      "en": "ECC and Lattice Crypto Attacks"
+    },
+    "category": {
+      "zh": "CTF/密码学",
+      "en": "CTF / Cryptography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 区块链/智能合约",
+      "en": "CTF Blockchain/Smart Contracts"
+    },
+    "category": {
+      "zh": "CTF/密码学",
+      "en": "CTF / Cryptography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "gRPC/WebSocket 安全测试",
+      "en": "gRPC/WebSocket Security Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SDR 软件无线电安全",
+      "en": "SDR Software Defined Radio Security"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Atomic Red Team 自动化",
+      "en": "Atomic Red Team Automation"
+    },
+    "category": {
+      "zh": "红队工具",
+      "en": "Red Team Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "FreeBSD/Solaris 命令",
+      "en": "FreeBSD/Solaris Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "macOS 深度安全命令",
+      "en": "macOS Deep Security Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "红队基础设施",
+      "en": "Red Team Infrastructure"
+    },
+    "category": {
+      "zh": "红队工具",
+      "en": "Red Team Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "无线钓鱼攻击",
+      "en": "Wireless Phishing Attacks"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Azure AD/EntraID 攻击",
+      "en": "Azure AD/Entra ID Attacks"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "免杀技术",
+      "en": "AV Evasion Techniques"
+    },
+    "category": {
+      "zh": "红队工具",
+      "en": "Red Team Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 内核漏洞利用",
+      "en": "Linux Kernel Exploitation"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "容器编排攻击",
+      "en": "Container Orchestration Attacks"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "硬件安全测试",
+      "en": "Hardware Security Testing"
+    },
+    "category": {
+      "zh": "CTF/固件分析",
+      "en": "CTF / Firmware Analysis"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "渗透测试自动化框架",
+      "en": "Pentest Automation Frameworks"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络取证深度分析",
+      "en": "Advanced Network Forensics"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows AV/EDR 高级绕过",
+      "en": "Advanced Windows AV/EDR Bypass"
+    },
+    "category": {
+      "zh": "红队工具",
+      "en": "Red Team Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "威胁狩猎",
+      "en": "Threat Hunting"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Kubernetes 高级攻击",
+      "en": "Kubernetes Advanced Attacks"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 全命令动态枚举",
+      "en": "PowerShell Full Command Discovery"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 全 Cmdlet 索引",
+      "en": "PowerShell All Cmdlets Index"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 全 Function 索引",
+      "en": "PowerShell All Functions Index"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 全 Alias 索引",
+      "en": "PowerShell All Aliases Index"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 全命令动态枚举",
+      "en": "Linux Full Command Discovery"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux Shell Builtins 索引",
+      "en": "Linux Shell Builtins Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux POSIX/GNU 命令索引",
+      "en": "Linux POSIX/GNU Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 系统管理命令索引",
+      "en": "Linux Administration Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 网络与存储命令索引",
+      "en": "Linux Network & Storage Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 包管理/开发/容器命令索引",
+      "en": "Linux Package, Dev & Container Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 常用命令总览",
+      "en": "Linux Command Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 文本处理命令",
+      "en": "Linux Text Processing Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 进程与服务排查",
+      "en": "Linux Process & Service Diagnostics"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 网络与防火墙排查",
+      "en": "Linux Network & Firewall Diagnostics"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 包管理与容器命令",
+      "en": "Linux Package & Container Commands"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows CMD 命令总览",
+      "en": "Windows CMD Command Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 管理命令",
+      "en": "PowerShell Administration Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 日志、网络与防火墙查询",
+      "en": "Windows Event, Network & Firewall Queries"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows Sysinternals 工具",
+      "en": "Windows Sysinternals Tools"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "跨平台效率命令工具",
+      "en": "Modern Cross-platform CLI Toolkit"
+    },
+    "category": {
+      "zh": "效率工具",
+      "en": "Utility Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络诊断工具箱",
+      "en": "Network Diagnostics Toolkit"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "蓝队取证工具箱",
+      "en": "Blue Team DFIR Toolkit"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "文件分析与取证工具",
+      "en": "File Analysis & Forensics Tools"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 安全基线查询",
+      "en": "Linux Security Baseline Queries"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 安全基线查询",
+      "en": "Windows Security Baseline Queries"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
     "name": "Nmap",
     "category": {
       "zh": "信息收集",
@@ -5417,7 +9590,7 @@
   {
     "name": {
       "zh": "Linux提权命令",
-      "en": "LinuxPrivilege escalationCommand"
+      "en": "Linux Privilege Escalation Commands"
     },
     "category": {
       "zh": "权限提升",
@@ -5495,7 +9668,7 @@
   {
     "name": {
       "zh": "Python反弹Shell",
-      "en": "Python Reverse ShellShell"
+      "en": "Python Reverse Shell"
     },
     "category": {
       "zh": "反弹Shell",
@@ -5507,7 +9680,7 @@
   {
     "name": {
       "zh": "PowerShell反弹Shell",
-      "en": "PowerShellReverse Shell"
+      "en": "PowerShell Reverse Shell"
     },
     "category": {
       "zh": "反弹Shell",
@@ -5519,7 +9692,7 @@
   {
     "name": {
       "zh": "Netcat反弹Shell",
-      "en": "NetcatReverse Shell"
+      "en": "Netcat Reverse Shell"
     },
     "category": {
       "zh": "反弹Shell",
@@ -5562,37 +9735,10 @@
     "group": "toolCommands"
   },
   {
-    "name": "BloodHound",
-    "category": {
-      "zh": "内网渗透",
-      "en": "Intranet Penetration"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
     "name": "Mimikatz",
     "category": {
       "zh": "凭证窃取",
       "en": "Credential Theft"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Rubeus",
-    "category": {
-      "zh": "凭证窃取",
-      "en": "Credential Theft"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Certipy",
-    "category": {
-      "zh": "域渗透",
-      "en": "Domain Penetration"
     },
     "tags": [],
     "group": "toolCommands"
@@ -5607,52 +9753,7 @@
     "group": "toolCommands"
   },
   {
-    "name": "SharpHound",
-    "category": {
-      "zh": "内网渗透",
-      "en": "Intranet Penetration"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Seatbelt",
-    "category": {
-      "zh": "信息收集",
-      "en": "Information Gathering"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "WinPEAS",
-    "category": {
-      "zh": "权限提升",
-      "en": "Privilege Escalation"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "LinPEAS",
-    "category": {
-      "zh": "权限提升",
-      "en": "Privilege Escalation"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
     "name": "Chisel",
-    "category": {
-      "zh": "隧道代理",
-      "en": "Tunneling & Proxy"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Ligolo-ng",
     "category": {
       "zh": "隧道代理",
       "en": "Tunneling & Proxy"
@@ -5688,15 +9789,6 @@
     "group": "toolCommands"
   },
   {
-    "name": "Cobalt Strike",
-    "category": {
-      "zh": "红队工具",
-      "en": "Red Team Tools"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
     "name": "SearchSploit",
     "category": {
       "zh": "信息收集",
@@ -5710,42 +9802,6 @@
     "category": {
       "zh": "Web渗透",
       "en": "Web Penetration"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Amass",
-    "category": {
-      "zh": "信息收集",
-      "en": "Information Gathering"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Subfinder",
-    "category": {
-      "zh": "信息收集",
-      "en": "Information Gathering"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "HTTPX",
-    "category": {
-      "zh": "信息收集",
-      "en": "Information Gathering"
-    },
-    "tags": [],
-    "group": "toolCommands"
-  },
-  {
-    "name": "Masscan",
-    "category": {
-      "zh": "信息收集",
-      "en": "Information Gathering"
     },
     "tags": [],
     "group": "toolCommands"
@@ -6095,7 +10151,7 @@
   {
     "name": {
       "zh": "SecLists字典",
-      "en": "SecListsDictionary"
+      "en": "SecLists Wordlists"
     },
     "category": {
       "zh": "密码攻击",
@@ -6107,7 +10163,7 @@
   {
     "name": {
       "zh": "RockYou字典",
-      "en": "RockYouDictionary"
+      "en": "RockYou Wordlist"
     },
     "category": {
       "zh": "密码攻击",
@@ -6433,6 +10489,2700 @@
     "category": {
       "zh": "编码解码",
       "en": "Encoding/Decoding"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Naabu",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Katana",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "gau",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "dnsx",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "tlsx",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Assetfinder",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "SubDomainizer",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Hakrawler",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Semgrep",
+    "category": {
+      "zh": "代码安全",
+      "en": "Code Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Gitleaks",
+    "category": {
+      "zh": "供应链安全",
+      "en": "Supply Chain Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "TruffleHog",
+    "category": {
+      "zh": "供应链安全",
+      "en": "Supply Chain Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Trivy",
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Syft",
+    "category": {
+      "zh": "供应链安全",
+      "en": "Supply Chain Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Grype",
+    "category": {
+      "zh": "供应链安全",
+      "en": "Supply Chain Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Checkov",
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "tfsec",
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "OSV-Scanner",
+    "category": {
+      "zh": "供应链安全",
+      "en": "Supply Chain Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Prowler",
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Pwntools",
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "GDB 增强插件 (pwndbg/GEF/peda)",
+      "en": "GDB Enhanced (pwndbg/GEF/peda)"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Ghidra",
+    "category": {
+      "zh": "逆向工程",
+      "en": "Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Radare2",
+    "category": {
+      "zh": "逆向工程",
+      "en": "Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Binwalk",
+    "category": {
+      "zh": "CTF/固件分析",
+      "en": "CTF / Firmware Analysis"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "angr",
+    "category": {
+      "zh": "CTF/逆向",
+      "en": "CTF / Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Volatility 3",
+    "category": {
+      "zh": "CTF/内存取证",
+      "en": "CTF / Memory Forensics"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "隐写术工具集",
+      "en": "Steganography Toolkit"
+    },
+    "category": {
+      "zh": "CTF/隐写",
+      "en": "CTF / Steganography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "FRP (Fast Reverse Proxy)",
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Neo-reGeorg",
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "pspy",
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Linux Exploit Suggester 2",
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "macOS 系统命令",
+      "en": "macOS System Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "ADB (Android Debug Bridge)",
+    "category": {
+      "zh": "移动安全",
+      "en": "Mobile Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Docker 安全命令",
+      "en": "Docker Security Commands"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Kubernetes 安全命令",
+      "en": "Kubernetes Security Commands"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 密码学工具",
+      "en": "CTF Crypto Tools"
+    },
+    "category": {
+      "zh": "CTF/密码学",
+      "en": "CTF / Cryptography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "RsaCtfTool",
+    "category": {
+      "zh": "CTF/密码学",
+      "en": "CTF / Cryptography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Wireshark / tshark",
+    "category": {
+      "zh": "CTF/流量分析",
+      "en": "CTF / Traffic Analysis"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "John the Ripper 进阶用法",
+      "en": "John the Ripper Advanced Usage"
+    },
+    "category": {
+      "zh": "密码攻击",
+      "en": "Password Attacks"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SSH 渗透测试命令",
+      "en": "SSH Penetration Testing Commands"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SMB 渗透测试命令",
+      "en": "SMB Penetration Testing Commands"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "MSSQL 渗透测试",
+      "en": "MSSQL Penetration Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "MySQL 渗透测试",
+      "en": "MySQL Penetration Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Redis 渗透测试",
+      "en": "Redis Penetration Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerView AD 信息收集",
+      "en": "PowerView AD Reconnaissance"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 横向移动命令",
+      "en": "Windows Lateral Movement Commands"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 后渗透命令",
+      "en": "Linux Post-Exploitation Commands"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 后渗透命令",
+      "en": "Windows Post-Exploitation Commands"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 取证工具集",
+      "en": "CTF Forensics Toolkit"
+    },
+    "category": {
+      "zh": "CTF/取证",
+      "en": "CTF / Forensics"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Nmap 高级用法",
+      "en": "Nmap Advanced Usage"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 侦察工具集",
+      "en": "Web Reconnaissance Toolkit"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "AWS 云安全测试",
+      "en": "AWS Cloud Security Testing"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Pacu",
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "iOS 安全测试命令",
+      "en": "iOS Security Testing Commands"
+    },
+    "category": {
+      "zh": "移动安全",
+      "en": "Mobile Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Gobuster 高级用法",
+      "en": "Gobuster Advanced Usage"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Nuclei 高级用法",
+      "en": "Nuclei Advanced Usage"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Burp Suite 高级用法",
+      "en": "Burp Suite Advanced Usage"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Git 信息泄露测试",
+      "en": "Git Information Disclosure Testing"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SQLMap 高级用法",
+      "en": "SQLMap Advanced Usage"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "LFI/RFI 利用工具",
+      "en": "LFI/RFI Exploitation Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "XSS 利用工具",
+      "en": "XSS Exploitation Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络枢转与代理",
+      "en": "Network Pivoting and Proxy"
+    },
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "WebShell 和 CMS 工具",
+      "en": "WebShells and CMS Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Azure 云安全测试",
+      "en": "Azure Cloud Security Testing"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 缓存攻击工具",
+      "en": "Web Cache Attack Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "XXE 攻击工具",
+      "en": "XXE Attack Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "JWT 攻击工具",
+      "en": "JWT Attack Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Active Directory 攻击速查",
+      "en": "Active Directory Attack Quick Reference"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "OSINT 信息收集工具",
+      "en": "OSINT Information Gathering Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "漏洞开发辅助工具",
+      "en": "Exploit Development Helper Tools"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "OpenVAS / Greenbone",
+      "en": "OpenVAS / Greenbone Vulnerability Scanner"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "密码喷洒工具",
+      "en": "Password Spraying Tools"
+    },
+    "category": {
+      "zh": "密码攻击",
+      "en": "Password Attacks"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Scapy",
+    "category": {
+      "zh": "CTF/流量分析",
+      "en": "CTF / Traffic Analysis"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Impacket 高级工具",
+      "en": "Impacket Advanced Tools"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Netcat 高级用法",
+      "en": "Netcat Advanced Usage"
+    },
+    "category": {
+      "zh": "反弹Shell",
+      "en": "Reverse Shell"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Metasploit 高级用法",
+      "en": "Metasploit Advanced Usage"
+    },
+    "category": {
+      "zh": "漏洞利用",
+      "en": "Exploitation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 注册表命令",
+      "en": "Windows Registry Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 远程管理",
+      "en": "PowerShell Remoting Commands"
+    },
+    "category": {
+      "zh": "Windows渗透",
+      "en": "Windows Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 网络命令速查",
+      "en": "Linux Networking Quick Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF Web 工具集",
+      "en": "CTF Web Tools"
+    },
+    "category": {
+      "zh": "CTF/Web",
+      "en": "CTF / Web"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "文件传输技术",
+      "en": "File Transfer Techniques"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "主动侦察工具",
+      "en": "Active Reconnaissance Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 高级命令",
+      "en": "Windows Advanced Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF Misc 工具集",
+      "en": "CTF Misc Tools"
+    },
+    "category": {
+      "zh": "CTF/Misc",
+      "en": "CTF / Misc"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "反编译工具",
+      "en": "Decompiler Tools"
+    },
+    "category": {
+      "zh": "逆向工程",
+      "en": "Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "内网枢转工具",
+      "en": "Internal Network Pivoting Tools"
+    },
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "漏洞利用框架",
+      "en": "Exploit Frameworks"
+    },
+    "category": {
+      "zh": "漏洞利用",
+      "en": "Exploitation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 取证命令",
+      "en": "Linux Forensics Commands"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 取证命令",
+      "en": "Windows Forensics Commands"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web API 安全测试",
+      "en": "Web API Security Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "GCP 云安全测试",
+      "en": "GCP Cloud Security Testing"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Python 渗透测试脚本",
+      "en": "Python Penetration Testing Scripts"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Wi-Fi 无线安全测试",
+      "en": "Wi-Fi Wireless Security Testing"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络枚举工具",
+      "en": "Network Enumeration Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 内核漏洞利用",
+      "en": "Linux Kernel Exploits"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "WebShell Payload 集合",
+      "en": "WebShell Payload Collection"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 提权技术速查",
+      "en": "Linux Privilege Escalation Techniques"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "哈希破解速查",
+      "en": "Hash Cracking Quick Reference"
+    },
+    "category": {
+      "zh": "密码攻击",
+      "en": "Password Attacks"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PHP 安全攻击",
+      "en": "PHP Security Attacks"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 提权技术速查",
+      "en": "Windows Privilege Escalation Techniques"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SSH 隧道高级用法",
+      "en": "SSH Tunneling Advanced Usage"
+    },
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "BloodHound Cypher 查询",
+      "en": "BloodHound Cypher Queries"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": "Interactsh",
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Java 应用渗透测试",
+      "en": "Java Application Penetration Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "空间测绘工具",
+      "en": "Cyberspace Mapping Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "社会工程学工具",
+      "en": "Social Engineering Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 命令技巧速查",
+      "en": "Linux Command Tricks Quick Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows LOLBins 速查",
+      "en": "Windows LOLBins Quick Reference"
+    },
+    "category": {
+      "zh": "Windows渗透",
+      "en": "Windows Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Exploit 搜索速查",
+      "en": "Exploit Search Quick Reference"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "命令注入高级技术",
+      "en": "Advanced Command Injection Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 认证绕过技术",
+      "en": "Web Authentication Bypass Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Nmap NSE 脚本速查",
+      "en": "Nmap NSE Scripts Quick Reference"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络代理工具对比",
+      "en": "Network Proxy Tools Reference"
+    },
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Active Directory 持久化",
+      "en": "Active Directory Persistence"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 字典资源",
+      "en": "Web Fuzzing Wordlists"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 网络题工具",
+      "en": "CTF Network Challenge Tools"
+    },
+    "category": {
+      "zh": "CTF/流量分析",
+      "en": "CTF / Traffic Analysis"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "AV/EDR 绕过技术",
+      "en": "AV/EDR Evasion Techniques"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Bug Bounty 工具链",
+      "en": "Bug Bounty Toolkit"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "容器逃逸技术",
+      "en": "Container Escape Techniques"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 侦察高级技术",
+      "en": "Advanced Web Reconnaissance Techniques"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "DNS 攻击技术",
+      "en": "DNS Attack Techniques"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "云安全工具集",
+      "en": "Cloud Security Toolkit"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络层攻击",
+      "en": "Network Layer Attacks"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "数据外带技术",
+      "en": "Data Exfiltration Techniques"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "漏洞研究工具",
+      "en": "Vulnerability Research Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 系统命令全览",
+      "en": "Windows System Commands Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 逆向工具集",
+      "en": "CTF Reverse Engineering Tools"
+    },
+    "category": {
+      "zh": "逆向工程",
+      "en": "Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "移动端渗透测试工具",
+      "en": "Mobile Penetration Testing Tools"
+    },
+    "category": {
+      "zh": "移动安全",
+      "en": "Mobile Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "GTFOBins 速查",
+      "en": "GTFOBins Quick Reference"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 密码学速查",
+      "en": "CTF Cryptography Quick Reference"
+    },
+    "category": {
+      "zh": "CTF/密码学",
+      "en": "CTF / Cryptography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "红队行动速查",
+      "en": "Red Team Operations Quick Reference"
+    },
+    "category": {
+      "zh": "红队工具",
+      "en": "Red Team Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "HTTP 安全响应头测试",
+      "en": "HTTP Security Headers Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "提权辅助工具集",
+      "en": "Privilege Escalation Helper Toolkit"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SQL 注入高级技术",
+      "en": "Advanced SQL Injection Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "渗透测试报告工具",
+      "en": "Pentest Reporting Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 缓存和 CDN 安全",
+      "en": "Web Cache and CDN Security"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "文件上传攻击技术",
+      "en": "File Upload Attack Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "数据库渗透工具集",
+      "en": "Database Penetration Toolkit"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Active Directory 工具集",
+      "en": "Active Directory Toolkit"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 高级命令技巧",
+      "en": "Linux Advanced Command Tricks"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "反序列化攻击工具",
+      "en": "Deserialization Attack Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "代理工具速查",
+      "en": "Proxy Tools Quick Reference"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "API 安全测试工具",
+      "en": "API Security Testing Tools"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "内网侦察命令集",
+      "en": "Internal Network Reconnaissance Commands"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SSRF 利用技术",
+      "en": "SSRF Exploitation Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF PWN 技术速查",
+      "en": "CTF PWN Techniques Quick Reference"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "IoT 设备安全测试",
+      "en": "IoT Device Security Testing"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "社交媒体 OSINT",
+      "en": "Social Media OSINT"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "持久化技术速查",
+      "en": "Persistence Techniques Quick Reference"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "被动信息收集",
+      "en": "Passive Information Gathering"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 枚举工具速查",
+      "en": "Web Enumeration Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "云平台杂项工具",
+      "en": "Cloud Miscellaneous Tools"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 提权检测清单",
+      "en": "Linux Privilege Escalation Checklist"
+    },
+    "category": {
+      "zh": "权限提升",
+      "en": "Privilege Escalation"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Web 高级攻击技术",
+      "en": "Advanced Web Attack Techniques"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 安全基线检查",
+      "en": "Linux Security Baseline Check"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 安全基线检查",
+      "en": "Windows Security Baseline Check"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "漏洞利用开发",
+      "en": "Exploit Development"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "威胁情报工具",
+      "en": "Threat Intelligence Tools"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows CMD 高级命令",
+      "en": "Windows CMD Advanced Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 取证高级技术",
+      "en": "Linux Advanced Forensics"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "代码审计速查",
+      "en": "Code Audit Quick Reference"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "渗透测试实用命令集",
+      "en": "Useful Pentest Command Collection"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络协议渗透速查",
+      "en": "Network Protocol Pentest Reference"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Git 安全操作",
+      "en": "Git Security Operations"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Docker 管理命令",
+      "en": "Docker Management Commands"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "端点安全检测",
+      "en": "Endpoint Security Detection"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络枢转技术速查",
+      "en": "Network Pivoting Techniques"
+    },
+    "category": {
+      "zh": "隧道代理",
+      "en": "Tunneling & Proxy"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "恶意宏和脚本分析",
+      "en": "Malicious Macro and Script Analysis"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF Linux 工具速查",
+      "en": "CTF Linux Tools Reference"
+    },
+    "category": {
+      "zh": "CTF/Misc",
+      "en": "CTF / Misc"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CMS 攻击速查",
+      "en": "CMS Attack Quick Reference"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Shodan 高级搜索",
+      "en": "Shodan Advanced Search"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "逆向工程技巧",
+      "en": "Reverse Engineering Tricks"
+    },
+    "category": {
+      "zh": "逆向工程",
+      "en": "Reverse Engineering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "后渗透工具速查",
+      "en": "Post-Exploitation Tools Reference"
+    },
+    "category": {
+      "zh": "内网渗透",
+      "en": "Intranet Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 堆漏洞利用",
+      "en": "CTF Heap Exploitation"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "供应链安全工具",
+      "en": "Supply Chain Security Tools"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "高级网络扫描",
+      "en": "Advanced Network Scanning"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF Web 高级技巧",
+      "en": "CTF Web Advanced Tricks"
+    },
+    "category": {
+      "zh": "CTF/Web",
+      "en": "CTF / Web"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "AD 域内枚举速查",
+      "en": "AD Domain Enumeration Reference"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 取证高级技术",
+      "en": "CTF Advanced Forensics Techniques"
+    },
+    "category": {
+      "zh": "CTF/取证",
+      "en": "CTF / Forensics"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "枚举自动化脚本",
+      "en": "Enumeration Automation Scripts"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 高级渗透技术",
+      "en": "Advanced Windows Penetration Techniques"
+    },
+    "category": {
+      "zh": "Windows渗透",
+      "en": "Windows Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "AWS 高级攻击",
+      "en": "AWS Advanced Attacks"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "VoIP/SIP 安全测试",
+      "en": "VoIP/SIP Security Testing"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "ICS/SCADA 工控安全",
+      "en": "ICS/SCADA Industrial Control Security"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Exchange/M365 攻击",
+      "en": "Exchange/M365 Attacks"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "蓝牙安全测试",
+      "en": "Bluetooth Security Testing"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "进程注入技术",
+      "en": "Process Injection Techniques"
+    },
+    "category": {
+      "zh": "Windows渗透",
+      "en": "Windows Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "OAuth/OIDC 攻击",
+      "en": "OAuth/OIDC Attacks"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "无文件攻击和反取证",
+      "en": "Fileless Attacks and Anti-Forensics"
+    },
+    "category": {
+      "zh": "Windows渗透",
+      "en": "Windows Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "阿里云/腾讯云安全测试",
+      "en": "Alibaba/Tencent Cloud Security Testing"
+    },
+    "category": {
+      "zh": "云原生安全",
+      "en": "Cloud Native Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "ECC/格密码攻击",
+      "en": "ECC and Lattice Crypto Attacks"
+    },
+    "category": {
+      "zh": "CTF/密码学",
+      "en": "CTF / Cryptography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "CTF 区块链/智能合约",
+      "en": "CTF Blockchain/Smart Contracts"
+    },
+    "category": {
+      "zh": "CTF/密码学",
+      "en": "CTF / Cryptography"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "gRPC/WebSocket 安全测试",
+      "en": "gRPC/WebSocket Security Testing"
+    },
+    "category": {
+      "zh": "Web渗透",
+      "en": "Web Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "SDR 软件无线电安全",
+      "en": "SDR Software Defined Radio Security"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Atomic Red Team 自动化",
+      "en": "Atomic Red Team Automation"
+    },
+    "category": {
+      "zh": "红队工具",
+      "en": "Red Team Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "FreeBSD/Solaris 命令",
+      "en": "FreeBSD/Solaris Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "macOS 深度安全命令",
+      "en": "macOS Deep Security Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "红队基础设施",
+      "en": "Red Team Infrastructure"
+    },
+    "category": {
+      "zh": "红队工具",
+      "en": "Red Team Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "无线钓鱼攻击",
+      "en": "Wireless Phishing Attacks"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Azure AD/EntraID 攻击",
+      "en": "Azure AD/Entra ID Attacks"
+    },
+    "category": {
+      "zh": "域渗透",
+      "en": "Domain Penetration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "免杀技术",
+      "en": "AV Evasion Techniques"
+    },
+    "category": {
+      "zh": "红队工具",
+      "en": "Red Team Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 内核漏洞利用",
+      "en": "Linux Kernel Exploitation"
+    },
+    "category": {
+      "zh": "CTF/PWN",
+      "en": "CTF / PWN"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "容器编排攻击",
+      "en": "Container Orchestration Attacks"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "硬件安全测试",
+      "en": "Hardware Security Testing"
+    },
+    "category": {
+      "zh": "CTF/固件分析",
+      "en": "CTF / Firmware Analysis"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "渗透测试自动化框架",
+      "en": "Pentest Automation Frameworks"
+    },
+    "category": {
+      "zh": "信息收集",
+      "en": "Information Gathering"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络取证深度分析",
+      "en": "Advanced Network Forensics"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows AV/EDR 高级绕过",
+      "en": "Advanced Windows AV/EDR Bypass"
+    },
+    "category": {
+      "zh": "红队工具",
+      "en": "Red Team Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "威胁狩猎",
+      "en": "Threat Hunting"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Kubernetes 高级攻击",
+      "en": "Kubernetes Advanced Attacks"
+    },
+    "category": {
+      "zh": "容器安全",
+      "en": "Container Security"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 全命令动态枚举",
+      "en": "PowerShell Full Command Discovery"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 全 Cmdlet 索引",
+      "en": "PowerShell All Cmdlets Index"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 全 Function 索引",
+      "en": "PowerShell All Functions Index"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 全 Alias 索引",
+      "en": "PowerShell All Aliases Index"
+    },
+    "category": {
+      "zh": "PowerShell 全命令索引",
+      "en": "PowerShell Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 全命令动态枚举",
+      "en": "Linux Full Command Discovery"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux Shell Builtins 索引",
+      "en": "Linux Shell Builtins Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux POSIX/GNU 命令索引",
+      "en": "Linux POSIX/GNU Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 系统管理命令索引",
+      "en": "Linux Administration Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 网络与存储命令索引",
+      "en": "Linux Network & Storage Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 包管理/开发/容器命令索引",
+      "en": "Linux Package, Dev & Container Command Index"
+    },
+    "category": {
+      "zh": "Linux 全命令索引",
+      "en": "Linux Full Command Index"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 常用命令总览",
+      "en": "Linux Command Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 文本处理命令",
+      "en": "Linux Text Processing Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 进程与服务排查",
+      "en": "Linux Process & Service Diagnostics"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 网络与防火墙排查",
+      "en": "Linux Network & Firewall Diagnostics"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 包管理与容器命令",
+      "en": "Linux Package & Container Commands"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows CMD 命令总览",
+      "en": "Windows CMD Command Reference"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "PowerShell 管理命令",
+      "en": "PowerShell Administration Commands"
+    },
+    "category": {
+      "zh": "系统命令",
+      "en": "System Commands"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 日志、网络与防火墙查询",
+      "en": "Windows Event, Network & Firewall Queries"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows Sysinternals 工具",
+      "en": "Windows Sysinternals Tools"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "跨平台效率命令工具",
+      "en": "Modern Cross-platform CLI Toolkit"
+    },
+    "category": {
+      "zh": "效率工具",
+      "en": "Utility Tools"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "网络诊断工具箱",
+      "en": "Network Diagnostics Toolkit"
+    },
+    "category": {
+      "zh": "系统管理",
+      "en": "System Administration"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "蓝队取证工具箱",
+      "en": "Blue Team DFIR Toolkit"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "文件分析与取证工具",
+      "en": "File Analysis & Forensics Tools"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Linux 安全基线查询",
+      "en": "Linux Security Baseline Queries"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
+    },
+    "tags": [],
+    "group": "toolCommands"
+  },
+  {
+    "name": {
+      "zh": "Windows 安全基线查询",
+      "en": "Windows Security Baseline Queries"
+    },
+    "category": {
+      "zh": "蓝队取证",
+      "en": "Blue Team & DFIR"
     },
     "tags": [],
     "group": "toolCommands"
